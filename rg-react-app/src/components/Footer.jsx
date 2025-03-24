@@ -109,7 +109,7 @@ const Footer = () => {
       </div>
 
       <div style={styles.bottom}>
-        <p style={styles.copyright}>© 2024 ResearchGate. All rights reserved.</p>
+        <p style={styles.copyright}>© 2024 SITResearchGate. All rights reserved.</p>
       </div>
     </footer>
   );

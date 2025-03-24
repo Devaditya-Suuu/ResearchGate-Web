@@ -6,8 +6,8 @@ import Front from "./components/Front";
 import EventsPage from "./components/EventsPage";
 import EventDetailsPage from "./components/Hack-cse-lerate";
 import ContactPage from "./components/ContactPage";
-import RecentPublications from "./components/RecentPublications";
 import MembersPage from "./components/Members";
+import RecentPublications from "./components/RecentPublications";
 // import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
@@ -22,6 +22,7 @@ const App = () => {
             <Route path="/event-details" element={<EventDetailsPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/members" element={<MembersPage />} />
+            <Route path={"/Recent-publications"} element={<RecentPublications />} />
           </Routes>
         </main>
         <Footer />

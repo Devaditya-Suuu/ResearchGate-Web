@@ -15,7 +15,7 @@ const RecentPublications = () => {
       {publications.map((item) => (
         <div key={item.id} style={styles.card}>
           <h2 style={styles.title}>{item.title}</h2>
-          <p style={styles.author}>Author: {item.author}</p>
+          <p style={styles.author}><b>Author</b>: {item.author}</p>
           <button onClick={() => openLink(item.link)} style={styles.linkButton}>
             Read More
           </button>
@@ -31,14 +31,15 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     justifyContent: "center",
-    gap: "15px",
+    gap: "35px",
+    marginTop: "30px",
   },
   card: {
-    backgroundColor: "#E3F2FD",
+    backgroundColor: "#dbf2ff",
     padding: "16px",
     borderRadius: "10px",
     boxShadow: "0 4px 8px rgba(0,0,0,0.2)",
-    width: "250px",
+    width: "300px",
     textAlign: "center",
   },
   title: {
@@ -53,13 +54,13 @@ const styles = {
   },
   linkButton: {
     marginTop: "10px",
-    padding: "8px",
+    padding: "10px",
     backgroundColor: "#64B5F6",
     color: "#FFF",
     border: "none",
     borderRadius: "6px",
     cursor: "pointer",
-    textDecoration: "underline",
+    textDecoration: 'none',
   },
 };
 

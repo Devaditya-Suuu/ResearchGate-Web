@@ -11,7 +11,7 @@ const ContactPage = () => {
       <h2 style={styles.header}>Contact Us</h2>
       <div style={styles.infoContainer}>
         <p style={styles.label}>Phone:</p>
-        <p style={styles.text}>+91 9731636663</p>
+        <p style={styles.text}>+91 8296015593</p>
 
         <p style={styles.label}>Email:</p>
         <a href="mailto:sitresearchgate@sit.sc.in" style={styles.emailText} onClick={handleEmailClick}>

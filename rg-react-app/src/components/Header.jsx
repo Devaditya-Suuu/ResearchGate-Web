@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav style={styles.nav}>
       <div style={styles.container}>
-        <Link to="/" style={styles.logo}>ResearchGate</Link>
+        <Link to="/" style={styles.logo}>SITResearchGate</Link>
 
         <button
           style={styles.menuToggle}
@@ -29,6 +29,9 @@ const Header = () => {
               <Link to="/members" style={styles.navLink}>Members</Link>
             </li>
             <li style={styles.navItem}>
+              <Link to="/Recent-publications" style={styles.navLink}>Recent Publications</Link>
+            </li>
+            <li style={styles.navItem}>
               <Link to="/login" style={styles.navLink}>Members Login</Link>
             </li>
             <li style={styles.navItem}>
@@ -45,7 +48,8 @@ const styles = {
   nav: {
     backgroundColor: "#667eea",
     padding: "1rem",
-    boxShadow: "0 2px 4px rgba(0,0,0,0.1)"
+    boxShadow: "0 2px 4px rgba(0,0,0,0.4)"
+
   },
   container: {
     maxWidth: "1200px",
@@ -64,13 +68,15 @@ const styles = {
     backgroundColor: "transparent",
     border: "none",
     color: "white",
-    fontSize: "1.5rem",
-    cursor: "pointer"
+    fontSize: "2.5rem",
+    cursor: "pointer",
+    // display: "inline",
   },
   navList: {
     listStyle: "none",
     padding: 0,
-    margin: 0
+    margin: 0,
+    marginTop: "0.5rem"
   },
   navItem: {
     marginBottom: "0.5rem"

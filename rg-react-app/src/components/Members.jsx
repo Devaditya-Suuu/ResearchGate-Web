@@ -53,7 +53,7 @@ const MemberCard = ({ member }) => (
 const MembersPage = () => {
   return (
     <div className="container">
-      <h2 className="header">Club Members</h2>
+      <h2 className="header header_member">Club Members</h2>
       <div className="members-list">
         {members.map((member) => (
           <MemberCard key={member.id} member={member} />

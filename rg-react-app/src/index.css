@@ -13,6 +13,11 @@ body {
   min-height: 100vh;
   background-color: aliceblue!important;
 }
+.header_member{
+  background-color: aliceblue!important;
+  display: flex;
+  justify-content: center;
+}
 .external_linking-btn{
   padding: 0.8rem 1.5rem;
   border-radius: 10px;
@@ -44,7 +49,6 @@ body {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
   border-radius: 20px;
-  margin-top: 30px;
 }
 
 .hero-section h1 {
