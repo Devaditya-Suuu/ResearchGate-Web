@@ -8,7 +8,6 @@ import EventDetailsPage from "./components/Hack-cse-lerate";
 import ContactPage from "./components/ContactPage";
 import MembersPage from "./components/Members";
 import RecentPublications from "./components/RecentPublications";
-// import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
   return (
